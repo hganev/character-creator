@@ -4,7 +4,7 @@
 }
 
 .maxWidthWrapper {
-  /* height: 100%; */
+  position: relative;
 }
 
 .header {
@@ -28,9 +28,9 @@
 .characterWrapper {
   position: fixed;
   min-height: 500px;
-  top: 170px;
-  right: 20px;
-  bottom: -10px;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
 }
 
 .controlColumn {
@@ -39,10 +39,10 @@
 
 
 .stickyBackround {
-  position: sticky;
-  bottom: -100px;
-  height: 440px;
+  position: fixed;
+  height: 40%;
+  top: 60%;
+  width: 100%;
+  left: 0;
   background-color: hsl(195deg, 20%, 86%);
-  z-index: -1;
-  /* border: 2px solid black; */
 }
